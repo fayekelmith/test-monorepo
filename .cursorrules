@@ -1,0 +1,31 @@
+# Cursor IDE Rules for Test Monorepo
+
+## Code Style
+- Use TypeScript for all code
+- Follow functional programming patterns where possible
+- Prefer const over let
+- Use async/await over promises
+- Keep functions small and focused
+
+## File Organization
+- Place shared code in packages/shared
+- Keep API routes in packages/api/src/routes
+- Place React components in packages/web/src/components
+- Write E2E tests in packages/e2e/tests
+
+## Naming Conventions
+- Use camelCase for variables and functions
+- Use PascalCase for components and classes
+- Use kebab-case for file names
+- Use UPPER_CASE for constants
+
+## Testing
+- Write unit tests alongside source files
+- E2E tests should cover critical user flows
+- Aim for 80%+ code coverage
+
+## Git Practices
+- Write meaningful commit messages
+- Use conventional commits format
+- Keep PRs focused and small
+- Always run tests before committing
